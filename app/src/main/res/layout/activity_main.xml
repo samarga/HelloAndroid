@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.helloandroid.MainActivity">
+
+    <TextView
+        android:fontFamily="sans-serif-bold"
+        android:text="Hello Android"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:background="#1423a8"
+        android:layout_alignParentLeft="true"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"/>
+
+    <TextView
+        android:fontFamily="sans-serif-bold"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:background="#ffffff"
+        android:layout_alignParentLeft="true"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/udacity"
+        android:scaleType="centerCrop"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:fontFamily="sans-serif-bold"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:text="Udacity
+
+2465 Latham St
+
+Mountain View, CA 94043
+
+650-555-5555"
+
+        android:background="#ffffff"
+        android:layout_alignParentLeft="true"
+        android:padding="15dp"
+        android:layout_marginBottom="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
